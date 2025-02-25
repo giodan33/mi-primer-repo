@@ -655,5 +655,21 @@ a:focus {
 .footer_section a {
   color: #fff;
 }
+/* Start: Google Maps Responsive */
+.map-responsive {
+  overflow:hidden;
+  padding-bottom:50px; /*Reduce este valor si el mapa fuera muy alto, por ejemplo 250px, puedes usar porcentajes, 50%*/
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+/* End: Google Maps Responsive */
 
 /* end footer section*/
