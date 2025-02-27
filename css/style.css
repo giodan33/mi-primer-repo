@@ -670,6 +670,12 @@ a:focus {
   width:100%;
   position:absolute;
 }
+.fb-share-button {
+  opacity: 1;
+  transform: scale(4.5);
+  transform-origin: top left;
+}
+
 /* End: Google Maps Responsive */
 
 /* end footer section*/
