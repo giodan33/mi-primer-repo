@@ -676,6 +676,32 @@ a:focus {
   transform-origin: top left;
 }
 
+.cover-container {
+  max-width: 45em;
+}
+.nav-thead .nav-link {
+  color: rgba(255, 255, 255, .5);
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-thead .nav-link:hover,
+  .nav-thead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-thead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-thead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+.cover-text {
+color: #ffffff;
+text-align: center;
+padding-top: 20%;
+}
 /* End: Google Maps Responsive */
 
 /* end footer section*/
